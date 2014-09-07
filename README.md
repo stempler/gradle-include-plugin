@@ -3,8 +3,6 @@ gradle-include-plugin
 
 Parametrizable includes for Gradle build scripts. The plugin allows to include external build scripts quite similar to using `apply from: ...`. In contrast to *apply from* you can directly call specific methods defined in the included script and if applicable provide parameter values.
 
-Starting from version *0.2.0* *gradle-include-plugin* requires at least Gradle 2.0, with older versions of Gradle, please use version *0.1*.
-
 Usage
 -----
 
@@ -17,6 +15,8 @@ buildscript {
 	}
 	dependencies {
 		classpath 'org.standardout:gradle-include-plugin:0.2.0'
+		// if using Gradle 1.x uncomment the following line
+//		classpath 'org.codehaus.groovy:groovy-backports-compat23:2.3+'
 	}
 }
 
