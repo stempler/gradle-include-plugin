@@ -16,7 +16,7 @@ buildscript {
 		mavenCentral()
 	}
 	dependencies {
-		classpath 'org.standardout:gradle-include-plugin:0.1'
+		classpath 'org.standardout:gradle-include-plugin:0.2.0'
 	}
 }
 
