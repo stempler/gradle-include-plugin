@@ -20,7 +20,7 @@ buildscript {
 	}
 }
 
-apply plugin: 'include'
+apply plugin: 'org.standardout.include'
 ```
 
 Specify scripts to include like this:
