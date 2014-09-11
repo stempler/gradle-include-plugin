@@ -11,7 +11,7 @@ First apply the plugin in your build file:
 ```groovy
 buildscript {
 	repositories {
-		mavenCentral()
+		jcenter()
 	}
 	dependencies {
 		classpath 'org.standardout:gradle-include-plugin:0.2.0'
